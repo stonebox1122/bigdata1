@@ -1,0 +1,66 @@
+Manifest-Version: 1.0
+Class-Path: hbase-protocol-1.2.0-cdh5.15.1.jar netty-all-4.0.23.Final.
+ jar commons-compress-1.4.1.jar curator-client-2.7.1.jar jackson-jaxrs
+ -json-provider-2.9.5.jar servlet-api-2.5.jar jersey-client-1.9.jar ja
+ ckson-jaxrs-1.8.8.jar hbase-common-1.2.0-cdh5.15.1-tests.jar hadoop-m
+ apreduce-client-jobclient-2.6.0-cdh5.15.1.jar commons-daemon-1.0.13.j
+ ar commons-el-1.0.jar hk2-locator-2.5.0-b32.jar jackson-xc-1.8.3.jar 
+ jetty-security-9.2.22.v20170606.jar xmlenc-0.52.jar jetty-http-9.2.22
+ .v20170606.jar jersey-guava-2.25.1.jar jetty-sslengine-6.1.26.clouder
+ a.4.jar javax.ws.rs-api-2.0.1.jar aws-java-sdk-bundle-1.11.134.jar ha
+ doop-auth-2.6.0-cdh5.15.1.jar core-3.1.1.jar commons-logging-1.1.3.ja
+ r scala-library-2.11.12.jar javax.servlet-api-3.1.0.jar hk2-api-2.5.0
+ -b32.jar findbugs-annotations-1.3.9-1.jar netty-3.10.5.Final.jar jsp-
+ 2.1-6.1.14.jar paranamer-2.3.jar api-asn1-api-1.0.0-M20.jar hbase-com
+ mon-1.2.0-cdh5.15.1.jar joni-2.1.2.jar jersey-container-servlet-core-
+ 2.25.1.jar apacheds-i18n-2.0.0-M15.jar java-xmlbuilder-0.4.jar jersey
+ -json-1.9.jar apacheds-kerberos-codec-2.0.0-M15.jar commons-beanutils
+ -1.7.0.jar jackson-module-jaxb-annotations-2.9.5.jar hbase-server-1.2
+ .0-cdh5.15.1.jar hbase-hadoop-compat-1.2.0-cdh5.15.1.jar lz4-java-1.4
+ .jar jsp-api-2.1-6.1.14.jar hadoop-yarn-client-2.6.0-cdh5.15.1.jar hs
+ qldb-1.8.0.10.jar hamcrest-core-1.3.jar hadoop-mapreduce-client-shuff
+ le-2.6.0-cdh5.15.1.jar hadoop-client-2.6.0-cdh5.15.1.jar slf4j-log4j1
+ 2-1.7.5.jar jetty-6.1.26.cloudera.4.jar commons-io-2.4.jar hbase-pref
+ ix-tree-1.2.0-cdh5.15.1.jar guava-11.0.2.jar jackson-annotations-2.2.
+ 3.jar jamon-runtime-2.4.1.jar hadoop-mapreduce-client-app-2.6.0-cdh5.
+ 15.1.jar jasper-runtime-5.5.23.jar jackson-core-asl-1.8.8.jar kafka_2
+ .11-1.0.1-kafka-3.1.1.jar slf4j-api-1.7.5.jar snappy-java-1.1.4.jar h
+ adoop-mapreduce-client-core-2.6.0-cdh5.15.1.jar aopalliance-repackage
+ d-2.5.0-b32.jar commons-math-2.1.jar commons-beanutils-core-1.8.0.jar
+  httpclient-4.1.2.jar hadoop-yarn-common-2.6.0-cdh5.15.1.jar log4j-1.
+ 2.17.jar hadoop-hdfs-2.6.0-cdh5.15.1-tests.jar jetty-io-9.2.22.v20170
+ 606.jar jline-2.11.jar avro-1.7.6-cdh5.15.1.jar xml-apis-1.3.04.jar o
+ sgi-resource-locator-1.0.1.jar hk2-utils-2.5.0-b32.jar jettison-1.1.j
+ ar jopt-simple-5.0.4.jar metrics-servlet-2.2.0.jar jackson-core-2.2.3
+ .jar jersey-media-jaxb-2.25.1.jar jetty-server-9.2.22.v20170606.jar j
+ avassist-3.20.0-GA.jar junit-4.12.jar commons-collections-3.2.2.jar h
+ adoop-mapreduce-client-common-2.6.0-cdh5.15.1.jar hadoop-hdfs-2.6.0-c
+ dh5.15.1.jar jsr305-3.0.0.jar commons-digester-1.8.jar jsp-api-2.1.ja
+ r zookeeper-3.4.5-cdh5.15.1.jar commons-lang-2.6.jar leveldbjni-all-1
+ .8.jar hadoop-common-2.6.0-cdh5.15.1.jar api-util-1.0.0-M20.jar curat
+ or-recipes-2.7.1.jar hadoop-aws-2.6.0-cdh5.15.1.jar connect-json-1.0.
+ 1-kafka-3.1.1.jar commons-configuration-1.6.jar stax-api-1.0-2.jar ja
+ ckson-databind-2.9.5.jar hadoop-yarn-server-common-2.6.0-cdh5.15.1.ja
+ r curator-framework-2.7.1.jar jaxb-api-2.2.2.jar jersey-server-1.9.ja
+ r jersey-client-2.25.1.jar kafka-clients-1.0.1-kafka-3.1.1.jar htrace
+ -core4-4.0.1-incubating.jar jersey-common-2.25.1.jar high-scale-lib-1
+ .1.1.jar jets3t-0.9.0.jar jetty-util-6.1.26.cloudera.4.jar hadoop-ann
+ otations-2.6.0-cdh5.15.1.jar jersey-server-2.25.1.jar jetty-util-9.2.
+ 22.v20170606.jar htrace-core-3.2.0-incubating.jar xz-1.0.jar javax.an
+ notation-api-1.2.jar jackson-mapper-asl-1.8.8.jar xercesImpl-2.9.1.ja
+ r protobuf-java-2.5.0.jar hadoop-core-2.6.0-mr1-cdh5.15.1.jar javax.i
+ nject-2.5.0-b32.jar hbase-procedure-1.2.0-cdh5.15.1.jar commons-httpc
+ lient-3.1.jar asm-3.1.jar jsch-0.1.42.jar jaxb-impl-2.2.3-1.jar commo
+ ns-cli-1.2.jar hbase-client-1.2.0-cdh5.15.1.jar rocksdbjni-5.7.3.jar 
+ hbase-annotations-1.2.0-cdh5.15.1.jar commons-math3-3.1.1.jar mysql-c
+ onnector-java-5.1.47.jar jackson-jaxrs-base-2.9.5.jar commons-net-3.1
+ .jar hadoop-yarn-api-2.6.0-cdh5.15.1.jar jasper-compiler-5.5.23.jar k
+ afka-streams-1.0.1-kafka-3.1.1.jar disruptor-3.3.0.jar commons-codec-
+ 1.4.jar activation-1.1.jar validation-api-1.1.0.Final.jar jersey-core
+ -1.9.jar hbase-hadoop2-compat-1.2.0-cdh5.15.1.jar httpcore-4.1.2.jar 
+ metrics-core-2.2.0.jar jetty-servlet-9.2.22.v20170606.jar netty-3.2.2
+ .Final.jar servlet-api-2.5-6.1.14.jar zkclient-0.10.jar jcodings-1.0.
+ 8.jar jersey-container-servlet-2.25.1.jar gson-2.2.4.jar connect-api-
+ 1.0.1-kafka-3.1.1.jar
+Main-Class: com.stone.ct.analysis.AnalysisData
+

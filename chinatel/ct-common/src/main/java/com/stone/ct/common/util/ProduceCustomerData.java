@@ -2,7 +2,7 @@ package com.stone.ct.common.util;
 
 import java.util.Date;
 
-public class ProduceTestData {
+public class ProduceCustomerData {
 
     /**
      * customeid

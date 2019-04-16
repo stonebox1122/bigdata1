@@ -15,6 +15,10 @@
         <module>ct-common</module>
         <module>ct-producer</module>
         <module>ct-consumer</module>
+        <module>ct-consumer-coprocesser</module>
+        <module>ct-analysis</module>
+        <module>ct-cache</module>
+        <module>ct-web</module>
     </modules>
     <build>
         <plugins>

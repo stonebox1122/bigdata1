@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stone.ct.web.dao.CalllogDao">
+    <select id="queryMonth" resultType="com.stone.ct.web.bean.Calllog">
+        select * from ct.calllog where telid = (
+          select id from ct.user where tel = #{tel}
+        ) and dateid in (
+          select id from ct.date where year = #{callTime} and month is not null and day is null
+        )
+    </select>
+</mapper>

@@ -1,8 +1,8 @@
 package com.stone.ct.consumer.bean;
 
 import com.stone.ct.common.bean.Consumer;
+import com.stone.ct.common.constant.Names;
 import com.stone.ct.consumer.dao.HBaseDao;
-import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
@@ -41,9 +41,11 @@ public class CalllogConsumer implements Consumer {
             KafkaConsumer<String, String> consumer = new KafkaConsumer<>(props);
 
             //指定主题
-            consumer.subscribe(Arrays.asList("calllog"));
+            consumer.subscribe(Arrays.asList(Names.Topic.getValue()));
 
+            //HBase数据访问对象
             HBaseDao dao = new HBaseDao();
+            //初始化
             dao.init();
 
             //消费数据
@@ -51,6 +53,8 @@ public class CalllogConsumer implements Consumer {
                 ConsumerRecords<String, String> consumerRecords = consumer.poll(100);
                 for (ConsumerRecord<String, String> consumerRecord : consumerRecords) {
                     dao.insertData(consumerRecord.value());
+                    //Calllog log = new Calllog(consumerRecord.value());
+                    //dao.insertData(log);
                 }
             }
         } catch (Exception e) {
